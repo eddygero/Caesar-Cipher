@@ -38,5 +38,9 @@ $ java App
 | Take a key entered by user   | 1 | You entered: 1 |
 | Decrypt the entered word using the given key   | Svo | Run |
 
+## License
+
+This project is licensed under the MIT License
+
 
 
