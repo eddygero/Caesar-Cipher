@@ -21,4 +21,12 @@ $ java --version
 ```
 ### Installing
 
+After cloning to your local machine navigate to the folder you cloned into and open the terminal there.
+
+Run the following commands
+```
+$ cd src/main/java
+$ java App
+```
+
 
