@@ -28,5 +28,15 @@ Run the following commands
 $ cd src/main/java
 $ java App
 ```
+## BDD
+ Behavior: <br>*The program should:*       | Input:    | Output:     |
+|:-------------|:------------- |:-------------|
+| Take in a word from the user | Run | You entered: Run    |
+| Take a key entered by user   | 1 | You entered: 1 |
+| Encrypt the entered word using the given key   | Run | Svo |
+|  Take in an encrypted word from the user  | Svo | You entered: Svo |
+| Take a key entered by user   | 1 | You entered: 1 |
+| Decrypt the entered word using the given key   | Svo | Run |
+
 
 
