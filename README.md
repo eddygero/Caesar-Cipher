@@ -19,4 +19,6 @@ To confirm run the following command on linux
 ```
 $ java --version
 ```
+### Installing
+
 
