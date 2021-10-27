@@ -55,4 +55,4 @@ public class CaesarCipherTest {
         assertEquals("Ae",testDecrypt.decrypter());
     }
 
-}
+    }
