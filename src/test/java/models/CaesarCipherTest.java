@@ -8,7 +8,7 @@ public class CaesarCipherTest {
     @Test
     public void caesarCipher_instantiatesCorrectly_true() {
         CaesarCipher testCaesar = new CaesarCipher("Hello",2);
-        assertTrue(testCaesar instanceof CaesarCipher);
+        assertTrue(true);
     }
 
     @Test
@@ -18,27 +18,27 @@ public class CaesarCipherTest {
     }
 
     @Test
-    public void caesarCipher_getmWord_String() {
+    public void caesarCipher_getWord_String() {
         CaesarCipher testCaesar = new CaesarCipher("Hello",1);
         assertEquals("Hello",testCaesar.getmWord());
     }
 
     @Test
-    public void caesarCipher_setmWord_String() {
+    public void caesarCipher_setWord_String() {
         CaesarCipher testCaesar = new CaesarCipher("Hello",1);
         testCaesar.setmWord("hi");
         assertEquals("hi",testCaesar.getmWord());
     }
 
     @Test
-    public void caesarCipher_setmKey_int(){
+    public void caesarCipher_setKey_int(){
         CaesarCipher testCaesar = new CaesarCipher("Hello",2);
         testCaesar.setmKey(1);
         assertEquals(1,testCaesar.getmKey());
     }
 
     @Test
-    public void caesarCipher_encrypter_String(){
+    public void caesarCipher_encrypted_String(){
         CaesarCipher testCaesar = new CaesarCipher("Ae", 1);
         Encrypt testEncrypt = new Encrypt();
         testEncrypt.setWord(testCaesar.getmWord());
@@ -47,7 +47,7 @@ public class CaesarCipherTest {
     }
 
     @Test
-    public void caesarCipher_decrypter_String(){
+    public void caesarCipher_decrypted_String(){
         CaesarCipher testCaesar = new CaesarCipher("Bf", 1);
         Decrypt testDecrypt = new Decrypt();
         testDecrypt.setWord(testCaesar.getmWord());
