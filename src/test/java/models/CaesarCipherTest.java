@@ -12,7 +12,7 @@ public class CaesarCipherTest {
     }
 
     @Test
-    public void caesarCipher_getmKey_int() {
+    public void caesarCipher_getKey_int() {
         CaesarCipher testCaesar = new CaesarCipher("Hello",2);
         assertEquals(2,testCaesar.getmKey());
     }
